@@ -1,0 +1,77 @@
+V "GNAT Lib v2017"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U example%b		example.adb		7e84fbd4 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170516105951 76789da1 ada%s
+D a-except.ads		20170516105953 291912d5 ada.exceptions%s
+D a-inteio.ads		20170516105955 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20170516105950 a87e2da7 ada.real_time%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105955 d3a89129 ada.tags%s
+D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D example.adb		20171006213025 b0a287a4 example%b
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105953 085b6ffb system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20170516200647 bc09da3b system.os_constants%s
+D s-osinte.ads		20170516105954 8eb5b5b4 system.os_interface%s
+D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
+D s-stausa.ads		20170516105954 017a0a05 system.stack_usage%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20170516105952 801abd01 system.task_info%s
+D s-taspri.ads		20170516105950 f40ac08d system.task_primitives%s
+D s-taprop.ads		20170516105950 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170516105956 05d6152c system.tasking%s
+D s-tassta.ads		20170516105952 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 2r6 4r5 5r5
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 11|2w10 5r9
+X 8 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 4r9
+242U14*Put 11|12s9 17s9
+X 11 example.adb
+7U11*Example 7b11 22l9 22t16
+8t10 A 10b15 13l9 13t10
+9t10 B 15b15 18l9 18t10
+X 26 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

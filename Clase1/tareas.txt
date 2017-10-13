@@ -1,0 +1,32 @@
+citas con terminate
+
+
+
+Hacer multiplicaciones de matriz por vector
+
+3x3 por 1x3
+
+
+
+
+
+
+
+
+
+Fumadores
+
+3 tareas:
+fumador 1   fosforo y papel (le falta tabaco)
+fumador 2   fosforo y tabaco (le falta papel)
+fumador 3   tabaco y papel (le falta fosforo)
+
+
+tarea gente que deja recursos sobre la mesa, cuando un fumador consume el recurso
+
+con citas
+
+
+
+
+plazo viernes 13 a las 23:59
